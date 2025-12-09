@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# My Progress Companion
 
-## Project info
+A modern PWA for tracking tasks, habits, and health goals. Built with React, Vite, Firebase, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Features
+- Task, habit, and health tracking
+- Firebase authentication and Firestore data storage
+- Responsive design for mobile and desktop
+- Progressive Web App (PWA): installable, offline support
+- Daily notifications (browser permission required)
 
-## How can I edit this code?
+## Getting Started
 
-There are several ways of editing your application.
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/my-progress-companion.git
+cd my-progress-companion
+```
 
-**Use Lovable**
+### 2. Install dependencies
+```bash
+npm install
+```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 3. Configure environment variables
+Create a `.env` file in the root directory with your Firebase config:
+```
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 4. Run locally
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 5. Build for production
+```bash
+npm run build
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deploying to Vercel
+1. Push your code to GitHub/GitLab/Bitbucket.
+2. Go to [Vercel](https://vercel.com), import your repo, and deploy.
+3. Add your environment variables in the Vercel dashboard.
 
-**Use GitHub Codespaces**
+## PWA Installation
+- Open the deployed site on your mobile browser.
+- Tap "Add to Home Screen" to install as an app.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Notifications
+- Allow notification permission when prompted.
+- You will receive daily reminders to complete your tasks.
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## License
+MIT
