@@ -1,0 +1,17 @@
+{
+  "name": "ProgressPal",
+  "short_name": "ProgressPal",
+  "description": "Your Personal Progress Tracker - Track tasks, habits, and health goals",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f9f8",
+  "theme_color": "#14b8a6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}
