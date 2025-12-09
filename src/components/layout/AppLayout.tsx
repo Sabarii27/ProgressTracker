@@ -41,11 +41,11 @@ export function AppLayout({ children }: { children: ReactNode }) {
         <div className="flex items-center justify-between px-4 h-16">
           <div className="flex items-center gap-2">
             <span className="text-2xl">✨</span>
-            <span className="font-display font-bold text-lg text-foreground">ProgressTracker</span>
+            <span className="font-display font-bold text-base text-foreground">ProgressTracker</span>
           </div>
           <div className="flex items-center gap-2">
             <Link to="/profile" title="Profile">
-              <span style={{ fontSize: 28, cursor: 'pointer' }}>👤</span>
+              <span style={{ fontSize: 20, lineHeight: 1, width: 24, height: 24, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>👤</span>
             </Link>
             <Button
               variant="ghost"
@@ -103,10 +103,10 @@ export function AppLayout({ children }: { children: ReactNode }) {
         <div className="flex items-center gap-3 px-6 h-20 border-b justify-between">
           <div className="flex items-center gap-2">
             <span className="text-3xl">✨</span>
-            <span className="font-display font-bold text-xl text-foreground">ProgressPal</span>
+            <span className="font-display font-bold text-lg text-foreground">ProgressTracker</span>
           </div>
           <Link to="/profile" title="Profile">
-            <span style={{ fontSize: 32, cursor: 'pointer' }}>👤</span>
+            <span style={{ fontSize: 24, lineHeight: 1, width: 28, height: 28, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>👤</span>
           </Link>
         </div>
         <nav className="flex-1 p-4 space-y-2">
